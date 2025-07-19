@@ -31,7 +31,6 @@ const About = () => {
                                 shape. Whether it’s routine maintenance or major repairs, we’re here to keep you moving—safe,
                                 smooth, and stress-free.
                             </p>
-                            <button className='bg-red-600 text-white px-8 py-2 rounded'>Learn more</button>
                         </div>
                     </div>
                 </div>

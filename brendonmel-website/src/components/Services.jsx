@@ -53,7 +53,7 @@ const Services = () => {
             <div className='flex gap-8 transition-transform duration-500 ease-in-out' 
                 style={{transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`}}>
                 {servicesData.map((service, index)=>(
-                    <div key={index} className='relative flex-shrink-0 w-full sm:w-1/4'>
+                    <div key={index} className='relative flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4'>
                         <img src={service.image} alt={service.service}  className='w-full h-auto mb-14'/>
                         <div className='absolute left-0 right-0  bottom-5 flex justify-center'>
                             <div className='inline-block bg-red-600 w-3/4 px-4 py-2 shadow-md'>
